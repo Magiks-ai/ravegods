@@ -433,7 +433,24 @@ export default function Home() {
             >
               Follow on X
             </a>
-            <a href="#" className="text-gray-400 hover:text-cyan-500 transition-colors px-4 py-2">Discord</a>
+            <a 
+              href="https://discord.gg/ZYJ3nQ8Je" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="px-6 py-3 bg-white text-black font-semibold text-base hover:bg-gray-100 transition-all inline-block rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105"
+              style={{ backgroundColor: '#ffffff', opacity: 1, background: '#ffffff' }}
+            >
+              Discord
+            </a>
+            <a 
+              href="https://t.me/RaveGodsSol" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="px-6 py-3 bg-white text-black font-semibold text-base hover:bg-gray-100 transition-all inline-block rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105"
+              style={{ backgroundColor: '#ffffff', opacity: 1, background: '#ffffff' }}
+            >
+              Telegram
+            </a>
             <a href="#" className="text-gray-400 hover:text-yellow-500 transition-colors px-4 py-2">Instagram</a>
             <a href="https://magiceden.io" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors px-4 py-2">Magic Eden</a>
           </div>
