@@ -94,8 +94,8 @@ export default function Home() {
             <a href="#collection" className="hover:text-pink-500 transition-colors">Collection</a>
             <a href="#about" className="hover:text-cyan-500 transition-colors">About</a>
             <a href="#utilities" className="hover:text-yellow-500 transition-colors">Utilities</a>
-            <a href="https://magiceden.io" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-white text-black hover:bg-gray-100 transition-all">
-              Mint on Magic Eden
+            <a href="https://launchmynft.io/collections/ELdjUdNVSNFGDrw5SK6DDaMry1bkGnRqpVwRyUiVbm6k/cY4HjBj3zaHepHiq9MiC" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-white text-black hover:bg-gray-100 transition-all">
+              MINT HERE
             </a>
           </div>
         </nav>
@@ -114,8 +114,8 @@ export default function Home() {
             Connected to merch drops, discounted rave access, and a thriving cultural ecosystem in the Rave/House scene
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://magiceden.io" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-white text-black font-semibold text-lg hover:bg-gray-100 transition-all inline-block">
-              Mint on Magic Eden
+            <a href="https://launchmynft.io/collections/ELdjUdNVSNFGDrw5SK6DDaMry1bkGnRqpVwRyUiVbm6k/cY4HjBj3zaHepHiq9MiC" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-white text-black font-semibold text-lg hover:bg-gray-100 transition-all inline-block">
+              MINT HERE
             </a>
             <a href="#about" className="px-8 py-4 border-2 border-white text-white font-semibold text-lg hover:bg-white hover:text-black transition-all inline-block">
               Learn More
@@ -167,6 +167,47 @@ export default function Home() {
               </div>
             );
           })}
+        </div>
+      </section>
+
+      {/* MINT HERE Section */}
+      <section className="relative py-20 md:py-32 flex items-center justify-center z-10 fade-in-section">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="bg-black rounded-lg p-8 md:p-16 border border-white/20 psych-border-light text-center" style={{ backgroundColor: '#000000', opacity: 1 }}>
+            <h2 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8">
+              <span className="psy-text drip" data-text="MINT HERE">MINT HERE</span>
+            </h2>
+            <a 
+              href="https://launchmynft.io/collections/ELdjUdNVSNFGDrw5SK6DDaMry1bkGnRqpVwRyUiVbm6k/cY4HjBj3zaHepHiq9MiC" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block transform hover:scale-110 transition-all duration-300"
+            >
+              <div className="bg-white rounded-lg p-6 md:p-8 border-3 border-black shadow-2xl psych-border mb-6" style={{ 
+                borderWidth: '3px',
+                boxShadow: '0 10px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3)'
+              }}>
+                <div className="text-center">
+                  <div className="w-40 md:w-64 h-20 md:h-32 mx-auto mb-4 flex items-center justify-center">
+                    <Image
+                      src="/launchmynft-logo.svg"
+                      alt="LaunchMyNFT Logo"
+                      width={256}
+                      height={128}
+                      className="w-full h-full object-contain"
+                      unoptimized
+                    />
+                  </div>
+                  <p className="text-black font-bold text-lg md:text-xl" style={{ textShadow: '0 1px 2px rgba(255, 255, 255, 0.5)' }}>
+                    Click to Mint
+                  </p>
+                </div>
+              </div>
+            </a>
+            <p className="text-lg md:text-xl text-gray-300 mt-6">
+              Click above to mint your RaveGod NFT
+            </p>
+          </div>
         </div>
       </section>
 
@@ -377,8 +418,8 @@ export default function Home() {
           </div>
 
             <div className="text-center mt-12">
-              <a href="https://magiceden.io" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-white text-black font-semibold text-lg hover:bg-gray-100 transition-all inline-block">
-                View on Magic Eden
+              <a href="https://launchmynft.io/collections/ELdjUdNVSNFGDrw5SK6DDaMry1bkGnRqpVwRyUiVbm6k/cY4HjBj3zaHepHiq9MiC" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-white text-black font-semibold text-lg hover:bg-gray-100 transition-all inline-block">
+                MINT HERE
               </a>
             </div>
           </div>
@@ -455,7 +496,7 @@ export default function Home() {
             <a href="https://magiceden.io" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors px-4 py-2">Magic Eden</a>
           </div>
           <p className="text-gray-400 text-sm">© 2025 RaveGods. All rights reserved.</p>
-          <p className="text-gray-400 text-xs mt-2">Minting on Magic Eden</p>
+          <p className="text-gray-400 text-xs mt-2">Minting on LaunchMyNFT</p>
         </div>
       </footer>
     </div>
