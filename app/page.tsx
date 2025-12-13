@@ -181,12 +181,18 @@ export default function Home() {
               href="https://launchmynft.io/collections/ELdjUdNVSNFGDrw5SK6DDaMry1bkGnRqpVwRyUiVbm6k/cY4HjBj3zaHepHiq9MiC" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="block transform hover:scale-105 transition-all duration-300"
-              style={{ textDecoration: 'none', display: 'block' }}
+              onClick={(e) => {
+                e.preventDefault();
+                window.open('https://launchmynft.io/collections/ELdjUdNVSNFGDrw5SK6DDaMry1bkGnRqpVwRyUiVbm6k/cY4HjBj3zaHepHiq9MiC', '_blank', 'noopener,noreferrer');
+              }}
+              className="inline-block transform hover:scale-105 transition-all duration-300 cursor-pointer"
+              style={{ textDecoration: 'none', position: 'relative', zIndex: 20 }}
             >
               <div className="bg-white rounded-lg p-6 md:p-8 border-3 border-black shadow-2xl psych-border mb-6" style={{ 
                 borderWidth: '3px',
-                boxShadow: '0 10px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3)'
+                boxShadow: '0 10px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3)',
+                position: 'relative',
+                zIndex: 20
               }}>
                 <div className="text-center">
                   <div className="w-40 md:w-64 h-20 md:h-32 mx-auto mb-4 flex items-center justify-center">
