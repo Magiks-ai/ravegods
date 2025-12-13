@@ -189,13 +189,10 @@ export default function Home() {
               }}>
                 <div className="text-center">
                   <div className="w-40 md:w-64 h-20 md:h-32 mx-auto mb-4 flex items-center justify-center">
-                    <Image
+                    <img
                       src="/launchmynft-logo.svg"
                       alt="LaunchMyNFT Logo"
-                      width={256}
-                      height={128}
                       className="w-full h-full object-contain"
-                      unoptimized
                     />
                   </div>
                   <p className="text-black font-bold text-lg md:text-xl" style={{ textShadow: '0 1px 2px rgba(255, 255, 255, 0.5)' }}>
