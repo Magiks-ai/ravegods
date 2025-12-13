@@ -181,21 +181,23 @@ export default function Home() {
               href="https://launchmynft.io/collections/ELdjUdNVSNFGDrw5SK6DDaMry1bkGnRqpVwRyUiVbm6k/cY4HjBj3zaHepHiq9MiC" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block transform hover:scale-110 transition-all duration-300"
+              className="inline-block transform hover:scale-110 transition-all duration-300 cursor-pointer"
+              style={{ textDecoration: 'none' }}
             >
-              <div className="bg-white rounded-lg p-6 md:p-8 border-3 border-black shadow-2xl psych-border mb-6" style={{ 
+              <div className="bg-white rounded-lg p-6 md:p-8 border-3 border-black shadow-2xl psych-border mb-6 cursor-pointer" style={{ 
                 borderWidth: '3px',
-                boxShadow: '0 10px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3)'
+                boxShadow: '0 10px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3)',
+                pointerEvents: 'auto'
               }}>
-                <div className="text-center">
-                  <div className="w-40 md:w-64 h-20 md:h-32 mx-auto mb-4 flex items-center justify-center">
+                <div className="text-center pointer-events-none">
+                  <div className="w-40 md:w-64 h-20 md:h-32 mx-auto mb-4 flex items-center justify-center pointer-events-none">
                     <img
                       src="/launchmynft-logo.svg"
                       alt="LaunchMyNFT Logo"
-                      className="w-full h-full object-contain"
+                      className="w-full h-full object-contain pointer-events-none"
                     />
                   </div>
-                  <p className="text-black font-bold text-lg md:text-xl" style={{ textShadow: '0 1px 2px rgba(255, 255, 255, 0.5)' }}>
+                  <p className="text-black font-bold text-lg md:text-xl pointer-events-none" style={{ textShadow: '0 1px 2px rgba(255, 255, 255, 0.5)' }}>
                     Click to Mint
                   </p>
                 </div>
